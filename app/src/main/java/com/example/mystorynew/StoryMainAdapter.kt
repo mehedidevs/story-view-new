@@ -88,7 +88,7 @@ class StoryMainAdapter(
                 binding.previousPage.setOnClickListener {
 
 
-                    binding.imageSliderRcv.previousPage(true)
+                    binding.spb.previous()
 
                     Log.d("TAG", "previousPage: ")
 
@@ -104,11 +104,14 @@ class StoryMainAdapter(
 
                 binding.nextPage.setOnClickListener {
 
-                    if (!binding.imageSliderRcv.canScrollHorizontally(View.SCROLL_AXIS_HORIZONTAL)) {
-                        listener.onNextItem()
-                    } else {
-                        binding.imageSliderRcv.nextPage(true)
-                    }
+                    binding.spb.next()
+
+
+//                    if (!binding.imageSliderRcv.canScrollHorizontally(View.SCROLL_AXIS_HORIZONTAL)) {
+//                        listener.onNextItem()
+//                    } else {
+//                        binding.imageSliderRcv.nextPage(true)
+//                    }
                     Log.d("TAG", "nextPage: ")
 
 

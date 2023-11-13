@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity(), StoryMainAdapter.Listener {
 
 
     override fun onNextItem() {
-        binding.imageSliderRcv.nextPage(true)
+       // binding.imageSliderRcv.nextPage(true)
 
 
 //        val imageCurrentPosition =
@@ -157,7 +157,7 @@ class MainActivity : AppCompatActivity(), StoryMainAdapter.Listener {
 
     override fun onPrevItem() {
 
-        binding.imageSliderRcv.previousPage(true)
+       // binding.imageSliderRcv.previousPage(true)
 
 //        val imageCurrentPosition =
 //            (binding.imageSliderRcv.layoutManager as LinearLayoutManager).findFirstVisibleItemPosition()
