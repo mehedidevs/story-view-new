@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StoriesProgressView">
+        <attr name="progressCount" format="integer|reference"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="progressBackgroundColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SegmentedProgressBar">
+        <attr name="gap_size" format="dimension" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="segment_count" format="integer" />
+        <attr name="segmentCornerRadius" format="dimension" />
+        <attr name="segmentMargins" format="dimension" />
+        <attr name="segmentStrokeWidth" format="dimension" />
+        <attr name="totalSegments" format="integer" />
+        <attr name="timePerSegment" format="integer" />
+        <attr name="fill_color" format="color" />
+        <attr name="segmentBackgroundColor" format="color" />
+        <attr name="segmentSelectedBackgroundColor" format="color" />
+        <attr name="segmentStrokeColor" format="color" />
+        <attr name="segmentSelectedStrokeColor" format="color" />
+        <attr name="container_color" format="color" />
+    </declare-styleable>
+</resources>
